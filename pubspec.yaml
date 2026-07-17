@@ -1,0 +1,51 @@
+name: bank_sampah_app
+description: Aplikasi manajemen pendataan multi-sektor offline-first.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management — lihat alasan pemilihan di dokumen analisis arsitektur
+  flutter_riverpod: ^2.5.1
+
+  font_awesome_flutter: ^11.0.0
+
+  # Firebase — Minggu 1
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.4
+  firebase_auth: ^5.3.1
+
+  # PDF & Cetak — Minggu 2 (Hari 13-14)
+  pdf: ^3.11.1
+  printing: ^5.14.3
+  intl: ^0.19.0
+  excel: ^4.0.0
+  share_plus: ^10.0.0
+  path_provider: ^2.0.14
+
+  # Cek koneksi — untuk indikator online/offline di UI
+  connectivity_plus: ^6.0.5
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^8.1.0
+  geolocator: ^14.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/logo_banksampah.png"
+  min_sdk_android: 21
