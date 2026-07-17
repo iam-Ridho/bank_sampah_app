@@ -99,18 +99,6 @@ flutter build apk --release
 
 ---
 
-## File yang Tidak Di-commit (Sensitif)
-
-| File | Keterangan |
-|---|---|
-| `lib/firebase_options.dart` | API key Firebase per platform |
-| `android/app/google-services.json` | Konfigurasi Firebase Android |
-| `android/local.properties` | Path SDK Android lokal |
-| `.env` / `.env.*` | Variabel lingkungan |
-| `key.properties` | Keystore signing Android |
-
----
-
 ## Catatan
 
 - App ID Android: `com.ridho.bankSampahRM`
